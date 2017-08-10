@@ -1,0 +1,76 @@
+// Specific CSS for your home-page
+.wrapper {
+  background-image: url("https://s3-media3.fl.yelpcdn.com/assets/srv0/yelp_large_assets/b0108eaaf115/assets/img/home/hero_photos/xetgX7L_0aF2pxuTh4gARA.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.table-title h1 {
+  font-family: Lobster;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: white;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+}
+.table {
+  padding: 20px;
+  border-width: 2px 2px 4px 5px;
+  border-radius: 10px;
+  padding-left: 0px;
+}
+
+table {
+  width: 100%;
+}
+.thead th {
+  padding: 0px 30px 0px 0px;
+  font-family: Lobster;
+  font-size: 28px;
+  color: white;
+  opacity: 0.9;
+  padding-bottom: 15px;
+
+}
+
+.table tbody {
+  font-family: Catamaran;
+  font-size: 22px;
+  color: white;
+  opacity: 0.8
+}
+
+.table td {
+  padding: 0px 20px 0px 0px;
+}
+
+.link-add-restaurant {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Catamaran;
+  font-size: 24px;
+  color: white;
+  opacity: 0.8;
+}
+
+.link-add-restaurant:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+}
+
+.link-to-show {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Catamaran;
+  font-size: 24px;
+  color: white;
+  opacity: 0.8;
+}
+
+.link-to-show:hover {
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+}

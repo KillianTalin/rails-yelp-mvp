@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4">
+      <h1>Add a review for <%= @restaurant.name %></h1>
+      <%= simple_form_for [@restaurant, @review] do |f| %>
+        <div class="form-inputs">
+          <%= f.input :content, label: "Nom" %>
+          <%= f.input :rating, label: "Note" %>
+        </div>
+        <div class="form-actions">
+          <%= f.submit class: "btn btn-warning" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

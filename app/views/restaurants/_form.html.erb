@@ -1,0 +1,14 @@
+<%= simple_form_for(@restaurant) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :name, label: "Nom" %>
+    <%= f.input :address, label: "Adresse" %>
+    <%= f.input :phone_number, label: "Numéro de téléphone" %>
+    <%= f.input :category, label: "Type de nourriture" %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn btn-warning" %>
+  </div>
+<% end %>
